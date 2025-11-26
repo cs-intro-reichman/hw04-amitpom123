@@ -30,7 +30,7 @@ public class KeywordsDetector {
                     if(!(sentence.charAt(k) <= 'z' && sentence.charAt(k) >= 'a') || k == sentence.length() - 1){
                         for(int p = 0; p < keywords.length; p++){
                             if(currentWord.equals(keywords[p].toLowerCase())){
-                                System.out.println(sentence);
+                                System.out.println(sentences[i]);
                                 nextSentence = true;
                                 //!@#!@#!@#
                                 break;
