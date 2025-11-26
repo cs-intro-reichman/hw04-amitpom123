@@ -2,7 +2,7 @@ public class Primes {
     public static void main(String[] args) {
         int num = Integer.parseInt(args[0]);
         
-        System.out.println("Prime numbers up to " + "" + num);
+        System.out.println("Prime numbers up to " + num + ":");
 
         boolean[] isPrime = new boolean[num + 1];
         int count = 0;
@@ -30,7 +30,7 @@ public class Primes {
         double x = count / (double)(num);
         int precent = (int)(x * 100);
 
-        System.out.println("There are " + "" + count + "" + " primes between 2 and " + num + "" + " (" + precent + "% are primes)");
+        System.out.println("There are " + count + " primes between 2 and " + num + " (" + precent + "% are primes)");
 
     }
 }
